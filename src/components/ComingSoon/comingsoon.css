@@ -1,0 +1,37 @@
+.selfcont {
+	width: 100%;
+	margin: 15% auto;
+	color: white;
+}
+.maincont {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	background-image: url("../../assets/comingBg.jpeg");
+}
+.containingdiv {
+	padding-left: 30%;
+	padding-right: 30%;
+}
+.containingdiv h1 {
+	font-weight: 700;
+	font-size: 60px;
+	text-shadow: 0 0 3px rgba(0, 244, 191, 1), 0 0 5px rgba(20, 186, 201, 1);
+}
+.containingdiv p {
+	padding-top: 10px;
+}
+.btn {
+	background: linear-gradient(
+		90deg,
+		rgba(0, 244, 191, 1) 0%,
+		rgba(20, 186, 201, 1) 62%
+	);
+	border-radius: 50px;
+	color: black;
+	font-weight: 600;
+	margin-top: 30px;
+}
