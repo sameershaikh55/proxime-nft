@@ -113,14 +113,15 @@ const TextCard = ({
 							{(filterData.length && "Added") || "Add to cart"}
 						</button>
 					</div>
-				)) || (
-					<button
-						disabled={true}
-						className={`btn-dark opacity-25 btn rounded-3 mt-4`}
-					>
-						Owned
-					</button>
-				)}
+				)) ||
+					(user && (
+						<button
+							disabled={true}
+							className={`btn-dark opacity-25 btn rounded-3 mt-4`}
+						>
+							Owned
+						</button>
+					))}
 			</div>
 		</div>
 	);
